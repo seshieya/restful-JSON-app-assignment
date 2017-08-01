@@ -26,11 +26,6 @@ class CommentsController extends AbstractActionController
         $this->commentsTable = new CommentsTable('comp4669assign2', 'root', '');
     }
 
-    public function indexAction()
-    {
-        return new ViewModel();
-    }
-
     public function commentsAction()
     {
         $data = [];
