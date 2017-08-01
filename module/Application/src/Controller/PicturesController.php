@@ -77,7 +77,7 @@ class PicturesController extends AbstractActionController
     }
 
 
-    public function buildPictureArrayForJson($data) {
+    private function buildPictureArrayForJson($data) {
 
         $pics = [];
 
